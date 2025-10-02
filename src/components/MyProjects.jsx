@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import workwheels from "../assets/images/Screenshot 2025-07-31 013955.png"
+import startUps from "../assets/images/image.png"
+import TheProfessions from "../assets/images/Gemini_Generated_Image_uccqy2uccqy2uccq.png"
 import { useTheme } from "../context/ThemeContext"; // ✅ theme support
 
 function Projects() {
@@ -22,7 +24,7 @@ function Projects() {
       route: "/projects/weather-app",
       description:
         "A platform designed for startup enthusiasts to share ideas, collaborate, and find resources. Built using MERN stack with authentication and real-time updates.",
-      image: "/images/startups.png",
+      image: startUps,
     },
     {
       id: 3,
@@ -38,7 +40,7 @@ function Projects() {
       route: "/projects/chat-app",
       description:
         "A professional networking platform to find people like you and fuel your passion. Supports profiles, chat, and content sharing.",
-      image: "/images/theprofession.png",
+      image: TheProfessions,
     },
     {
       id: 5,
