@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import workwheels from "../assets/images/Screenshot 2025-07-31 013955.png"
 import startUps from "../assets/images/image.png"
 import TheProfessions from "../assets/images/Gemini_Generated_Image_uccqy2uccqy2uccq.png"
+import Speakwise from "../assets/images/Screenshot 2026-05-01 123701.png"
+import INTERVIEW from "../assets/images/image copy.png"
 import { useTheme } from "../context/ThemeContext"; // ✅ theme support
 
 function Projects() {
@@ -48,7 +50,7 @@ function Projects() {
       route: "/projects/task-manager",
       description:
         "A YouTube clone where users can upload, view, and manage videos. Features include playlists, comments, and recommendations powered by AI.",
-      image: "/images/videotube.png",
+      image: "",
     },
     {
       id: 6,
@@ -56,15 +58,15 @@ function Projects() {
       route: "https://interview-prep-1-frontend.onrender.com/",
       description:
         "A platform which help you to ACE any interview by providing guids according to choosen position and expereince with help of AI",
-      image: "../assets/images/image copy.png",
+      image:INTERVIEW,
     },
     {
       id: 7,
       name: "SPEAK-WISE",
-      route: "https://interview-prep-1-frontend.onrender.com/",
+      route: "https://speak-wise-henna.vercel.app/",
       description:
         " A Platform for beginners to learn all about debates with help of AI" ,
-      image: "../assets/images/Screenshot 2026-05-01 123701.png",
+      image: Speakwise,
     },
   ];
 
