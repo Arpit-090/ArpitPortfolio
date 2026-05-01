@@ -50,6 +50,22 @@ function Projects() {
         "A YouTube clone where users can upload, view, and manage videos. Features include playlists, comments, and recommendations powered by AI.",
       image: "/images/videotube.png",
     },
+    {
+      id: 6,
+      name: "INTERVIEW-PREP",
+      route: "https://interview-prep-1-frontend.onrender.com/",
+      description:
+        "A platform which help you to ACE any interview by providing guids according to choosen position and expereince with help of AI",
+      image: "../assets/images/image copy.png",
+    },
+    {
+      id: 7,
+      name: "SPEAK-WISE",
+      route: "https://interview-prep-1-frontend.onrender.com/",
+      description:
+        " A Platform for beginners to learn all about debates with help of AI" ,
+      image: "../assets/images/Screenshot 2026-05-01 123701.png",
+    },
   ];
 
   return (

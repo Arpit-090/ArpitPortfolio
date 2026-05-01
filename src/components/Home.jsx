@@ -1,6 +1,6 @@
 // import { useTheme } from "../context/ThemeContext";
 import {useTheme} from "../context/ThemeContext"
-import bgImg from "../assets/images/WhatsApp Image 2025-09-30 at 6.56.19 PM.png"
+import bgImg from "../assets/images/arpit_git_profile-removebg-preview.png"
 
 export default function Home() {
   const { isDarkMode, toggleTheme } = useTheme();

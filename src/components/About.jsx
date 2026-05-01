@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from "../assets/images/ARPIT IMAGE.png";
+import myPic from "../assets/images/WhatsApp Image 2025-09-30 at 6.56.19 PM.png";
 import { useTheme } from "../context/ThemeContext"; // ✅ add theme hook
 
 export default function About() {
